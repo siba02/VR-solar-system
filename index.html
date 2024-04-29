@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solar system</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-sky src="planet_textures/night sky.jpeg"></a-sky>
+        <a-sphere id="sun" position="0 1.25 -5" radius ="1" src="planet_textures/sun.jpg" rotation ="0 0 0" animation="property: rotation; to: 0 0 0; loop: true; dur: 22224"></a-sphere>
+        <a-sphere id="mercury" position="3.9 1.25 -5" radius="0.1" src="planet_textures/mercury.jpg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 58650"></a-sphere>
+        <a-sphere id="Venus" position="7.2 1.25 -5" radius ="0.2" src="planet_textures/venus.jpg" rotation ="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 243000"></a-sphere>
+        <a-sphere id="Earth" position="10 1.25 -5" radius ="0.3" src="planet_textures/Earth.jpg" rotation ="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 864"></a-sphere>
+        <a-sphere id="Mars" position="15.2 1.25 -5" radius="0.2" src="planet_textures/mars.jpg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 8864"></a-sphere>
+        <a-sphere id="Jupiter" position="52 1.25 -5" radius ="1.5" src="planet_textures/Jupiter.jpg" rotation ="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 3528"></a-sphere>
+
+    </a-scene>
+    
+   
+</body>
+</html>    
